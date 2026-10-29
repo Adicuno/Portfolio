@@ -955,14 +955,14 @@ export default function App() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-end">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start">
             {/* ==========================================
                 LEFT COLUMN: CUTOUT PORTRAIT WITH BOLD VERMILION STICKER CONTOUR
             ========================================== */}
-            <div className="lg:col-span-4 relative flex flex-col items-center justify-center pt-4 lg:pt-8 min-h-[420px] sm:min-h-[540px]">
+            <div className="lg:col-span-4 relative flex flex-col items-center justify-center pt-4 lg:pt-8  ">
               {/* Solid Red-Orange Cutout Backing Shape for Depth */}
               <div
-                className="relative w-full max-w-[360px] flex items-end justify-center select-none group"
+                className="relative w-full max-w-[360px] flex items-start justify-center select-none group"
                 style={{ minHeight: "430px" }}
               >
                 {!portraitLoadFailed ? (
@@ -1143,7 +1143,6 @@ export default function App() {
                         Main ek{" "}
                         <strong className="font-extrabold text-[#111]">
                           Full-Stack Software Developer, Data Scientist 
-                          Postgraduate
                         </strong>{" "}
                         hoon. Mujhe{" "}
                         <strong className="font-extrabold text-[#111]">
